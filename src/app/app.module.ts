@@ -13,6 +13,9 @@ import { MenuComponent } from './components/pages/menu/menu.component';
 import { ComprobanteFacturaComponent } from './components/pages/comprobante-factura/comprobante-factura.component';
 import { AdmiPlanesComponent } from './components/pages/admi-planes/admi-planes.component';
 import { AdmiCuentasComponent } from './components/pages/admi-cuentas/admi-cuentas.component';
+import { ModelsModule } from './modules/models/models.module';
+import { NoutFoundPageComponent } from './components/pages/nout-found-page/nout-found-page.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -27,8 +30,15 @@ import { AdmiCuentasComponent } from './components/pages/admi-cuentas/admi-cuent
     ComprobanteFacturaComponent,
     AdmiPlanesComponent,
     AdmiCuentasComponent,
+    NoutFoundPageComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    ModelsModule,
+    BrowserAnimationsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

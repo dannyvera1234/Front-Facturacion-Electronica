@@ -1,0 +1,113 @@
+
+
+:root{
+    --login-bg: #f8f3ff;
+    --title-bg: #9089cc;
+    --button-bg: #674baf;
+    --light-pink: #e882e8;
+    --image-bf: #eadbff;
+}
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to top, #000 0%, #0000 100%);
+}
+.login-container{
+    height: 30em;
+    width: 65em;
+    margin: 6em auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.login-info-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;    
+    padding: 0.5rem;
+    background-color: #f8f3ff;
+    border-radius: 10px;
+}
+
+.title{
+    
+    font-size: 2.rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+
+.input-container{
+   
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.input, .btn{
+    width: 90%;
+    height: 3.125rem;
+    font-size: 1em;
+}
+.input{
+    padding-left: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+
+.input:hover{
+    border: 2px solid #674baf;
+}
+.span-container{
+    margin-left: 45%;
+    cursor: pointer;
+}
+
+.btn{
+    width: 80%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:#fff;
+    border-radius: 5px;
+    background-color:#674baf ;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.input-container p{
+    margin-left: 40%;
+
+
+}
+span{
+    cursor: pointer;
+}
+
+@media screen and(max-width:1000px) {
+    .image-container{
+        display: nome;
+
+    }
+    .login-container{
+        border: 2px solid;
+        width: 70%;
+        margin-top:3rem ;
+
+    }
+    .login-info-container{
+        width: 100%;
+    }
+}
+@media screen {
+    
+}
